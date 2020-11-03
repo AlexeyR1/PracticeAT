@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.String;
 
-public class SearchKeywordTest extends SearchKeywordTestSettings
+public class GoogleSearchPageTest extends GoogleSearchPageTestSettings
 {
     @Test
     public void findAllKeywords()
