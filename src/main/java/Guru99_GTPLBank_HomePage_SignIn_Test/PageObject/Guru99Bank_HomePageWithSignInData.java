@@ -39,10 +39,11 @@ public class Guru99Bank_HomePageWithSignInData extends PageSettings
     }
 
 
-    public GTPLBank_HomePage goToGTPLBank(GTPLBank_HomePage GTPLBankHomePage)
+    public GTPLBank_HomePage goToGTPLBank()
     {
+        GTPLBank_HomePage GTPLBankHomePage = new GTPLBank_HomePage(driver, wait);
         GTPLBankHomePage.goToGPTLBank();
 
-        return new GTPLBank_HomePage(driver, wait);
+        return GTPLBankHomePage;
     }
 }

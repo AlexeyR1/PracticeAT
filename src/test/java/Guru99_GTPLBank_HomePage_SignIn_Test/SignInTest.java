@@ -24,7 +24,7 @@ public class SignInTest extends Guru99_GTPLBank_HomePage_SignIn_TestSettings
         String login = Guru99Bank_HomePageWithSignInData.getLogin();
         String password = Guru99Bank_HomePageWithSignInData.getPassword();
 
-        GTPLBankHomePage = Guru99Bank_HomePageWithSignInData.goToGTPLBank(GTPLBankHomePage);
+        GTPLBankHomePage = Guru99Bank_HomePageWithSignInData.goToGTPLBank();
         Guru99ManagerHomePage Guru99ManagerHomePage = GTPLBankHomePage.signIn(login, password);
 
         Assert.assertEquals(expectedResult, Guru99ManagerHomePage.getPageTitle());
