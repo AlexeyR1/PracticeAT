@@ -1,4 +1,4 @@
-package Guru99_GTPLBank_HomePage_SignIn_Test.PageObject;
+package Guru99_GTPLBank_HomePage_Test.PageObject;
 
 import General.PageSettings.PageSettings;
 import org.junit.Assert;

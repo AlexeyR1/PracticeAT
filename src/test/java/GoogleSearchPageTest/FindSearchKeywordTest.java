@@ -6,10 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.String;
 
-public class GoogleSearchPageTest extends GoogleSearchPageTestSettings
+public class FindSearchKeywordTest extends GoogleSearchPageTestSettings
 {
     @Test
-    public void findAllKeywords()
+    public void findAllSearchKeywords()
     {
         MainGooglePage mainGooglePage = new MainGooglePage(driver, wait);
         GoogleSearchResultsPage googleSearchResultsPage;

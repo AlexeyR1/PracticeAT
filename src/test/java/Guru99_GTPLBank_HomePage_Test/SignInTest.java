@@ -1,14 +1,14 @@
-package Guru99_GTPLBank_HomePage_SignIn_Test;
+package Guru99_GTPLBank_HomePage_Test;
 
-import Guru99_GTPLBank_HomePage_SignIn_Test.PageObject.GTPLBank_HomePage;
-import Guru99_GTPLBank_HomePage_SignIn_Test.PageObject.Guru99Bank_HomePage;
-import Guru99_GTPLBank_HomePage_SignIn_Test.PageObject.Guru99Bank_HomePageWithSignInData;
-import Guru99_GTPLBank_HomePage_SignIn_Test.PageObject.Guru99ManagerHomePage;
+import Guru99_GTPLBank_HomePage_Test.PageObject.GTPLBank_HomePage;
+import Guru99_GTPLBank_HomePage_Test.PageObject.Guru99Bank_HomePage;
+import Guru99_GTPLBank_HomePage_Test.PageObject.Guru99Bank_HomePageWithSignInData;
+import Guru99_GTPLBank_HomePage_Test.PageObject.Guru99ManagerHomePage;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class SignInTest extends Guru99_GTPLBank_HomePage_SignIn_TestSettings
+public class SignInTest extends Guru99_GTPLBank_HomePage_TestSettings
 {
     @Test
     @Parameters({"email"})

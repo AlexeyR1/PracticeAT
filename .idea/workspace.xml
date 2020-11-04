@@ -61,6 +61,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\repin\IdeaProjects\PracticeAT\target\TestSuites" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Guru99_GtplBank_HomePage_SignIn_Test" />
       <recent name="GoogleSearchPageTest" />
@@ -112,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSearchKeywordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAT" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -123,7 +126,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="SearchPageTest" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchPageTest.GoogleSearchPageTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchPageTest.FindSearchKeywordTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -139,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchPageTest.findKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSearchKeywordTest.findKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAT" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -150,7 +153,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="SearchPageTest" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchPageTest.GoogleSearchPageTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchPageTest.FindSearchKeywordTest" />
       <option name="METHOD_NAME" value="findKeyword" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -172,13 +175,13 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_GTPLBank_HomePage_SignIn_Test.*" />
+          <option name="PATTERN" value="Guru99_GTPLBank_HomePage_Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="Guru99_GTPLBank_HomePage_SignIn_Test" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_GTPLBank_HomePage_SignIn_Test.SignInTest" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_GTPLBank_HomePage_Test.SignInTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -218,8 +221,8 @@
         <item itemvalue="TestNG.C:/Users/repin/IdeaProjects/PracticeAT/SignInSuite.xml" />
         <item itemvalue="TestNG.C:/Users/repin/IdeaProjects/PracticeAT/testng.xml" />
         <item itemvalue="TestNG.SignInTest" />
-        <item itemvalue="TestNG.GoogleSearchPageTest" />
-        <item itemvalue="TestNG.GoogleSearchPageTest.findKeyword" />
+        <item itemvalue="TestNG.FindSearchKeywordTest" />
+        <item itemvalue="TestNG.FindSearchKeywordTest.findKeyword" />
       </list>
     </recent_temporary>
   </component>
@@ -263,10 +266,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603917969028" />
-    <state x="449" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603921217152">
+    <state x="449" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604522807257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1603921217152" />
+    <state x="449" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1604522807257" />
     <state x="551" y="277" width="467" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604378294963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -275,26 +278,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1603921056316" />
-    <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604382915395">
+    <state x="492" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604522469507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1604382915395" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1604407532037">
+    <state x="492" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1604522469507" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1604523067867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604407532037" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1604407532037">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604523067867" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1604523067866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604407532037" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1604407532037">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604523067866" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1604523067866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604407532037" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1604407532037">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604523067866" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1604523067866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604407532037" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604523067866" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603929973254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

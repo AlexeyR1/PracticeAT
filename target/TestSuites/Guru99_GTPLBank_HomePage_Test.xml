@@ -6,7 +6,7 @@
         <parameter name="email" value="guruTest@test.ru"></parameter>
 
         <classes>
-            <class name="Guru99_GTPLBank_HomePage_SignIn_Test.SignInTest"></class>
+            <class name="Guru99_GTPLBank_HomePage_Test.SignInTest"></class>
         </classes>
     </test>
 
