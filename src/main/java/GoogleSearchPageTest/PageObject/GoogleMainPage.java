@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import General.PageSettings.PageSettings;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MainGooglePage extends PageSettings
+public class GoogleMainPage extends PageSettings
 {
-    public MainGooglePage(WebDriver driver, WebDriverWait wait)
+    public GoogleMainPage(WebDriver driver, WebDriverWait wait)
     {
         super(driver, wait);
         PageFactory.initElements(driver, this);

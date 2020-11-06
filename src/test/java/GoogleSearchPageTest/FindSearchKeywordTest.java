@@ -1,7 +1,7 @@
 package GoogleSearchPageTest;
 
 import GoogleSearchPageTest.PageObject.GoogleSearchResultsPage;
-import GoogleSearchPageTest.PageObject.MainGooglePage;
+import GoogleSearchPageTest.PageObject.GoogleMainPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.String;
@@ -11,22 +11,22 @@ public class FindSearchKeywordTest extends GoogleSearchPageTestSettings
     @Test
     public void findAllSearchKeywords()
     {
-        MainGooglePage mainGooglePage = new MainGooglePage(driver, wait);
+        GoogleMainPage googleMainPage = new GoogleMainPage(driver, wait);
         GoogleSearchResultsPage googleSearchResultsPage;
 
         String searchResultBlockText;
         String keyword;
 
-        String[] keywordsToSearch = mainGooglePage.getKeywordsToSearch();
+        String[] keywordsToSearch = googleMainPage.getKeywordsToSearch();
 
         int actualResult = 0;
         int expectedResult = keywordsToSearch.length;
 
 
-        mainGooglePage.goToGooglePage();
+        googleMainPage.goToGooglePage();
 
         // Первый поиск осуществляется со страницы google.com
-        googleSearchResultsPage = mainGooglePage.search(keywordsToSearch[0]);
+        googleSearchResultsPage = googleMainPage.search(keywordsToSearch[0]);
 
         for (int i = 0; i < keywordsToSearch.length; i++)
         {

@@ -27,11 +27,13 @@ public class Men_NewProducts_ViewAll_Page extends PageSettings
 
     private       List<ItemToShopElement> itemToShopList    = new ArrayList<>();
     private final String                  expectedPageTitle = "Просмотреть все | H&M RU";
+    private final String                  url               = "https://www2.hm.com/ru_ru/muzhchiny/novye-postupleniya/view" +
+            "-all.html";
 
 
     public void goToMenProductsPage()
     {
-        driver.navigate().to("https://www2.hm.com/ru_ru/muzhchiny/novye-postupleniya/view-all.html");
+        driver.navigate().to(url);
         Assert.assertEquals(expectedPageTitle, driver.getTitle());
 
         InitializeItemList();
