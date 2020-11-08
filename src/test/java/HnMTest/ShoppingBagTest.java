@@ -1,11 +1,12 @@
 package HnMTest;
 
+import General.TestSettings;
 import HnM.PageObject.ItemToShopPage;
 import HnM.PageObject.Men_NewProducts_ViewAll_Page;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ShoppingBagTest extends HnMTestSettings
+public class ShoppingBagTest extends TestSettings
 {
     @Test
     public void addItemToShoppingBag()

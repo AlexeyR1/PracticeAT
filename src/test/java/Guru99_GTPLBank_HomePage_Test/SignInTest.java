@@ -1,5 +1,6 @@
 package Guru99_GTPLBank_HomePage_Test;
 
+import General.TestSettings;
 import Guru99_GTPLBank_HomePage_Test.PageObject.GTPLBank_HomePage;
 import Guru99_GTPLBank_HomePage_Test.PageObject.Guru99Bank_HomePage;
 import Guru99_GTPLBank_HomePage_Test.PageObject.Guru99Bank_HomePageWithSignInData;
@@ -8,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class SignInTest extends Guru99_GTPLBank_HomePage_TestSettings
+public class SignInTest extends TestSettings
 {
     @Test
     @Parameters({"email"})

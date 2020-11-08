@@ -1,12 +1,13 @@
 package GoogleSearchPageTest;
 
+import General.TestSettings;
 import GoogleSearchPageTest.PageObject.GoogleSearchResultsPage;
 import GoogleSearchPageTest.PageObject.GoogleMainPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.String;
 
-public class FindSearchKeywordTest extends GoogleSearchPageTestSettings
+public class FindSearchKeywordTest extends TestSettings
 {
     @Test
     public void findAllSearchKeywords()

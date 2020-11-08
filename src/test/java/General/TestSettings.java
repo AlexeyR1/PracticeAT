@@ -1,4 +1,4 @@
-package GoogleSearchPageTest;
+package General;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-public class GoogleSearchPageTestSettings
+public class TestSettings
 {
     protected WebDriver     driver;
     protected WebDriverWait wait;
@@ -20,6 +20,8 @@ public class GoogleSearchPageTestSettings
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         wait   = new WebDriverWait(driver, howLongToWait);
+
+        driver.manage().window().maximize();
     }
 
 
