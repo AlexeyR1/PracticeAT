@@ -75,7 +75,7 @@
       <recent name="C:\Users\repin\IdeaProjects\PracticeAT\src\main\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwitchingBetweenTabsTest">
+  <component name="RunManager" selected="TestNG.SelectScheduleTest">
     <configuration name="C:/Users/repin/IdeaProjects/PracticeAT/SignInSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAT" />
       <useClassPathOnly />
@@ -116,18 +116,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingBagTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectScheduleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAT" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="General.*" />
+          <option name="PATTERN" value="MAI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="HnMTest" />
-      <option name="MAIN_CLASS_NAME" value="HnMTest.ShoppingBagTest" />
+      <option name="PACKAGE_NAME" value="MAI" />
+      <option name="MAIN_CLASS_NAME" value="MAI.SelectScheduleTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -143,18 +143,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBagTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAT" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_GTPLBank_HomePage_Test.*" />
+          <option name="PATTERN" value="General.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="Guru99_GTPLBank_HomePage_SignIn_Test" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_GTPLBank_HomePage_Test.SignInTest" />
+      <option name="PACKAGE_NAME" value="HnMTest" />
+      <option name="MAIN_CLASS_NAME" value="HnMTest.ShoppingBagTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelectScheduleTest" />
         <item itemvalue="TestNG.SwitchingBetweenTabsTest" />
         <item itemvalue="TestNG.ShoppingBagTest" />
         <item itemvalue="TestNG.C:/Users/repin/IdeaProjects/PracticeAT/SignInSuite.xml" />
         <item itemvalue="TestNG.C:/Users/repin/IdeaProjects/PracticeAT/testng.xml" />
-        <item itemvalue="TestNG.SignInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,42 +286,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604820292097" />
-    <state x="846" y="165" width="614" height="588" key="#xdebugger.evaluate" timestamp="1604684781307">
+    <state x="844" y="236" width="614" height="588" key="#xdebugger.evaluate" timestamp="1604828333521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="846" y="165" width="614" height="588" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1604684781307" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1604821032111">
+    <state x="844" y="236" width="614" height="588" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1604828333521" />
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1604829362543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604821032111" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1604821032110">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604829362543" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1604829362543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604821032110" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1604821032110">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604829362543" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1604829362543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604821032110" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1604821032111">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604829362543" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1604829362543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604821032111" />
-    <state width="1493" height="281" key="GridCell.Tab.1.bottom" timestamp="1604689363289">
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604829362543" />
+    <state width="1493" height="281" key="GridCell.Tab.1.bottom" timestamp="1604828759784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604689363289" />
-    <state width="1493" height="281" key="GridCell.Tab.1.center" timestamp="1604689363287">
+    <state width="1493" height="281" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604828759784" />
+    <state width="1493" height="281" key="GridCell.Tab.1.center" timestamp="1604828759784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604689363287" />
-    <state width="1493" height="281" key="GridCell.Tab.1.left" timestamp="1604689363287">
+    <state width="1493" height="281" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604828759784" />
+    <state width="1493" height="281" key="GridCell.Tab.1.left" timestamp="1604828759784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604689363287" />
-    <state width="1493" height="281" key="GridCell.Tab.1.right" timestamp="1604689363289">
+    <state width="1493" height="281" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604828759784" />
+    <state width="1493" height="281" key="GridCell.Tab.1.right" timestamp="1604828759784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604689363289" />
+    <state width="1493" height="281" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604828759784" />
     <state x="185" y="0" key="SettingsEditor" timestamp="1604681628778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
