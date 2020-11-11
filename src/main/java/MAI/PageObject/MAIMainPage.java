@@ -40,7 +40,8 @@ public class MAIMainPage extends PageSettings
 
         wait.until(ExpectedConditions.visibilityOf(educationLink));
         WebElement scheduleLink = educationLink.findElement(By.xpath("../..//a[contains(text(), 'Расписание')]"));
-        actions.moveToElement(educationLink).moveToElement(scheduleLink).click().perform();
+        actions.moveToElement(educationLink).perform();
+        actions.moveToElement(scheduleLink).click().perform();
 
         return new MAISchedulePage(driver, wait);
     }

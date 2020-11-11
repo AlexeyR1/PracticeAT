@@ -1,5 +1,6 @@
 package HnM.Elements;
 
+import General.Elements.Element;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

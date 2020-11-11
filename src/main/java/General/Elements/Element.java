@@ -1,4 +1,4 @@
-package HnM.Elements;
+package General.Elements;
 
 import org.openqa.selenium.*;
 

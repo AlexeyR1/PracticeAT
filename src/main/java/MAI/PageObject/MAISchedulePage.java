@@ -1,6 +1,7 @@
 package MAI.PageObject;
 
 import General.PageSettings.PageSettings;
+import MAI.Element.CourseContainerElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MAISchedulePage extends PageSettings
@@ -20,9 +22,6 @@ public class MAISchedulePage extends PageSettings
     }
 
 
-    @FindBy(xpath = "//div[@id='schedule-content']/div[@class='sc-container']")
-    public List<WebElement> scheduleContentList;
-
     @FindBy(xpath = "//button[@type='submit' and contains(text(), 'Отобразить')]")
     public WebElement showScheduleButton;
 
@@ -32,13 +31,19 @@ public class MAISchedulePage extends PageSettings
     @FindBy(xpath = "//select[@id='course']")
     public WebElement studyCourse;
 
+    public List<CourseContainerElement> courseContainerList = new ArrayList();
+
+    @FindBy(xpath = "//div[@id='schedule-content']/div[@class='sc-container']")
+    private List<WebElement> scheduleContentList;
+
 
     public void showSchedule()
     {
         selectDepartment();
         selectCourse();
-
         showScheduleButton.click();
+
+        initializeCourseContainerList();
     }
 
 
@@ -55,5 +60,12 @@ public class MAISchedulePage extends PageSettings
         wait.until(ExpectedConditions.visibilityOf(studyCourse));
         Select studyCourseSelect = new Select(studyCourse);
         studyCourseSelect.selectByValue("4");
+    }
+
+
+    private void initializeCourseContainerList()
+    {
+        wait.until(ExpectedConditions.visibilityOfAllElements(scheduleContentList));
+        scheduleContentList.forEach(courseContainer -> courseContainerList.add(new CourseContainerElement(courseContainer)));
     }
 }

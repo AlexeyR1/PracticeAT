@@ -55,16 +55,10 @@ public class QAStackAskPage extends PageSettings
 
     private String getNewOpenedWindowDescriptor(Set<String> oldOpenedWindowsSet)
     {
-        wait.until(waitUntilNumberOfWindowsToBe(oldOpenedWindowsSet.size() + 1));
+        wait.until(ExpectedConditions.numberOfWindowsToBe(oldOpenedWindowsSet.size() + 1));
         Set<String> newOpenedWindowsSet = driver.getWindowHandles();
         newOpenedWindowsSet.removeAll(oldOpenedWindowsSet);
 
         return newOpenedWindowsSet.iterator().next();
-    }
-
-
-    private ExpectedCondition<Boolean> waitUntilNumberOfWindowsToBe(int numberOfWindowsToBe)
-    {
-        return driver -> driver.getWindowHandles().size() == numberOfWindowsToBe;
     }
 }
