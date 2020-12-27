@@ -58,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CRUDTest.deleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDTest.addUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +68,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Reqres" />
       <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
-      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="METHOD_NAME" value="addUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CRUDTest" />
-        <item itemvalue="TestNG.CRUDTest.getUser" />
-        <item itemvalue="TestNG.CRUDTest.deleteUser" />
+        <item itemvalue="TestNG.CRUDTest.addUser" />
         <item itemvalue="TestNG.CRUDTest.updateUser" />
         <item itemvalue="TestNG.CRUDTest.getAllUsers" />
+        <item itemvalue="TestNG.CRUDTest.getUser" />
       </list>
     </recent_temporary>
   </component>

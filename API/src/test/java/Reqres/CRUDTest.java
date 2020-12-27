@@ -3,6 +3,7 @@ package Reqres;
 import Reqres.EndPoints.EndPoints;
 import Reqres.JSONObjects.UserDTO;
 import Reqres.JSONObjects.UserDataDTO;
+import Reqres.RequestHelpers.UsersRequestHelper;
 import Reqres.TestSettings.TestSettings;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,16 +18,7 @@ public class CRUDTest extends TestSettings {
         String job = "surgeon";
 
         UserDTO user = new UserDTO(name, job);
-        UserDTO receivedUser = given()
-                .spec(requestSpec)
-                .body(user)
-                .when()
-                .post(EndPoints.users)
-                .then()
-                .statusCode(201)
-                .extract()
-                .body()
-                .as(UserDTO.class);
+        UserDTO receivedUser = UsersRequestHelper.addUser(requestSpec, user, String.format(EndPoints.users));
 
         Assert.assertEquals(receivedUser.getName(), user.getName());
         Assert.assertEquals(receivedUser.getJob(), user.getJob());
@@ -41,16 +33,7 @@ public class CRUDTest extends TestSettings {
         String expectedEmail = "janet.weaver@reqres.in";
         String expectedAvatar = "https://reqres.in/img/faces/2-image.jpg";
 
-        String json = given()
-                .spec(requestSpec)
-                .when()
-                .get(EndPoints.userByID, 2)
-                .then()
-                .statusCode(200)
-                .extract()
-                .body()
-                .asPrettyString();
-
+        String json = UsersRequestHelper.getUser(requestSpec, String.format(EndPoints.userByID, 2));
         UserDataDTO userData = from(json).getObject("data", UserDataDTO.class);
 
         Assert.assertEquals(userData.getId(), expectedId);
@@ -63,21 +46,11 @@ public class CRUDTest extends TestSettings {
 
     @Test
     public void getAllUsers() {
-        String json = given()
-                .spec(requestSpec)
-                .queryParam("page", 2)
-                .when()
-                .get(EndPoints.users)
-                .then()
-                .statusCode(200)
-                .extract()
-                .body()
-                .asPrettyString();
-
+        String json = UsersRequestHelper.getUser(requestSpec, String.format(EndPoints.users));
         UserDataDTO[] usersData = from(json).getObject("data", UserDataDTO[].class);
 
         for (UserDataDTO userData : usersData) {
-            Assert.assertNotNull(userData.getId());
+            Assert.assertNotEquals(userData.getId(), 0);
             Assert.assertNotNull(userData.getFirstName());
             Assert.assertNotNull(userData.getLastName());
             Assert.assertNotNull(userData.getEmail());
@@ -92,16 +65,7 @@ public class CRUDTest extends TestSettings {
         String job = "zion resident";
 
         UserDTO user = new UserDTO(name, job);
-        UserDTO updatedUser = given()
-                .spec(requestSpec)
-                .body(user)
-                .when()
-                .put(EndPoints.userByID, 2)
-                .then()
-                .statusCode(200)
-                .extract()
-                .body()
-                .as(UserDTO.class);
+        UserDTO updatedUser = UsersRequestHelper.updateUser(requestSpec, user, String.format(EndPoints.userByID, 2));
 
         Assert.assertEquals(updatedUser.getName(), user.getName());
         Assert.assertEquals(updatedUser.getJob(), user.getJob());
@@ -111,7 +75,7 @@ public class CRUDTest extends TestSettings {
     @Test
     public void deleteUser() {
         given().spec(requestSpec)
-                .when().delete(EndPoints.userByID, 2)
+                .when().delete(String.format(EndPoints.userByID, 2))
                 .then().statusCode(204);
     }
 }
