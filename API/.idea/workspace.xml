@@ -40,93 +40,103 @@
       <recent name="Guru99" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.getSpecificPartOfResponseBody">
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CRUDTest">
+    <configuration name="CRUDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstTest.*" />
+          <option name="PATTERN" value="Reqres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FirstTest" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest.FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Reqres" />
+      <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.getResponseStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDTest.deleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstTest.*" />
+          <option name="PATTERN" value="Reqres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FirstTest" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest.FirstTest" />
-      <option name="METHOD_NAME" value="getResponseStatus" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Reqres" />
+      <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.getResponseWhole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDTest.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstTest.*" />
+          <option name="PATTERN" value="Reqres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FirstTest" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest.FirstTest" />
-      <option name="METHOD_NAME" value="getResponseWhole" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Reqres" />
+      <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
+      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.getSpecificPartOfResponseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDTest.getUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstTest.*" />
+          <option name="PATTERN" value="Reqres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FirstTest" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest.FirstTest" />
-      <option name="METHOD_NAME" value="getSpecificPartOfResponseBody" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Reqres" />
+      <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.getSpecificPartOfResponseBody1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDTest.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstTest.*" />
+          <option name="PATTERN" value="Reqres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FirstTest" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest.FirstTest" />
-      <option name="METHOD_NAME" value="getSpecificPartOfResponseBody1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Reqres" />
+      <option name="MAIN_CLASS_NAME" value="Reqres.CRUDTest" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.getSpecificPartOfResponseBody" />
-        <item itemvalue="JUnit.FirstTest.getResponseStatus" />
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.FirstTest.getSpecificPartOfResponseBody1" />
-        <item itemvalue="JUnit.FirstTest.getResponseWhole" />
+        <item itemvalue="TestNG.CRUDTest" />
+        <item itemvalue="TestNG.CRUDTest.getUser" />
+        <item itemvalue="TestNG.CRUDTest.deleteUser" />
+        <item itemvalue="TestNG.CRUDTest.updateUser" />
+        <item itemvalue="TestNG.CRUDTest.getAllUsers" />
       </list>
     </recent_temporary>
   </component>
